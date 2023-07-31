@@ -68,6 +68,6 @@ echo "Old backups removed."
 ---
 ### Cron (каждое воскресенье в 00:00)
 
-crontab -e
+`crontab -e`
 
-0 0 * * 0 /backup/backup.sh
+`0 0 * * 0 /backup/backup.sh`
